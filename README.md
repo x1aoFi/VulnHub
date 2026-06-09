@@ -40,12 +40,13 @@ gobuster dir -u http://<Target-IP> -w /usr/share/wordlists/dirb/common.txt
 ```
 
 通过目录扫描发现隐藏页面。
-
+![查找隐藏页面](image/gobust.png)
 
 ### 发现隐藏功能
 
 访问隐藏页面后，发现后台登录入口。
 
+![登入口](image/adminr.png)
 
 ---
 
@@ -72,7 +73,7 @@ whoami
 root
 ```
 
-
+![root权限](image/root.png)
 ---
 
 ## 遇到的问题
