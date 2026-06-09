@@ -19,7 +19,7 @@
 ```bash
 nmap -sV <Target-IP>
 ```
-
+(image/nmap1.png)
 扫描结果发现目标开放多个服务，其中 Web 服务可正常访问，因此优先从 Web 应用开始进行分析。
 
 
